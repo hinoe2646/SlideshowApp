@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     
     
     // 画面をタップして拡大画像画面へ
-
+    @IBAction func tap(_ sender: Any) {
+         performSegue(withIdentifier: "tap",sender: nil)
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let zoomViewController:ZoomViewController = segue.destination as! ZoomViewController

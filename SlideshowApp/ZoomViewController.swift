@@ -15,17 +15,22 @@ class ZoomViewController: UIViewController {
     
     var zoomView = UIImage()
     
-    let image = ["image1", "image2", "image3"]
-    
-    var count = 0
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        zoomImage.image = UIImage(named: image[count])
+        zoomImage.image = zoomView
         
         // Do any additional setup after loading the view.
     }
 
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
 

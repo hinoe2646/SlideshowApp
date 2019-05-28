@@ -54,12 +54,16 @@
                                     <action selector="startstop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VLX-6Z-U98"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tHC-vG-llx">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tHC-vG-llx">
                                 <rect key="frame" x="87.5" y="50" width="200" height="200"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="5SK-Ks-TPy"/>
                                     <constraint firstAttribute="height" constant="200" id="OUv-jq-Fbt"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qEV-hQ-Lf7" appends="YES" id="eHg-ca-N89"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -81,13 +85,13 @@
                         <outlet property="gotext" destination="fkY-6K-2Q6" id="B3d-ft-KKB"/>
                         <outlet property="imageView" destination="tHC-vG-llx" id="Ydn-Cb-QwV"/>
                         <outlet property="slidetext" destination="QhE-Hz-0vE" id="jB1-rN-Y5W"/>
-                        <segue destination="GXM-Ki-50d" kind="show" id="ZSY-yY-ohr"/>
+                        <segue destination="GXM-Ki-50d" kind="showDetail" identifier="tap" id="3Hl-fR-r0P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="vTP-PU-pIz">
+                <tapGestureRecognizer id="qEV-hQ-Lf7">
                     <connections>
-                        <action selector="tapAction:" destination="BYZ-38-t0r" id="Y0a-vt-66m"/>
+                        <action selector="tap:" destination="BYZ-38-t0r" id="DQ3-hB-WeA"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -112,7 +116,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="1nx-vv-1Di" kind="unwind" unwindAction="unwind:" id="G3T-tN-e9t"/>
+                                    <segue destination="1nx-vv-1Di" kind="unwind" unwindAction="unwind:" id="rJ0-Z5-bQD"/>
                                 </connections>
                             </button>
                         </subviews>
