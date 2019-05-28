@@ -12,6 +12,10 @@
 		F8D0E7AF229C04DF002F5466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D0E7AD229C04DF002F5466 /* Main.storyboard */; };
 		F8D0E7B1229C04E1002F5466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D0E7B0229C04E1002F5466 /* Assets.xcassets */; };
 		F8D0E7B4229C04E1002F5466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D0E7B2229C04E1002F5466 /* LaunchScreen.storyboard */; };
+		F8D0E7BC229C0538002F5466 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0E7BB229C0538002F5466 /* ZoomViewController.swift */; };
+		F8D0E7C0229C0581002F5466 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8D0E7BD229C0581002F5466 /* image1.jpg */; };
+		F8D0E7C1229C0581002F5466 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8D0E7BE229C0581002F5466 /* image2.jpg */; };
+		F8D0E7C2229C0581002F5466 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8D0E7BF229C0581002F5466 /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F8D0E7B0229C04E1002F5466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D0E7B3229C04E1002F5466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8D0E7B5229C04E1002F5466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D0E7BB229C0538002F5466 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		F8D0E7BD229C0581002F5466 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		F8D0E7BE229C0581002F5466 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		F8D0E7BF229C0581002F5466 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				F8D0E7A9229C04DF002F5466 /* AppDelegate.swift */,
 				F8D0E7AB229C04DF002F5466 /* ViewController.swift */,
 				F8D0E7AD229C04DF002F5466 /* Main.storyboard */,
-				F8D0E7B0229C04E1002F5466 /* Assets.xcassets */,
 				F8D0E7B2229C04E1002F5466 /* LaunchScreen.storyboard */,
 				F8D0E7B5229C04E1002F5466 /* Info.plist */,
+				F8D0E7BB229C0538002F5466 /* ZoomViewController.swift */,
+				F8D0E7B0229C04E1002F5466 /* Assets.xcassets */,
+				F8D0E7BD229C0581002F5466 /* image1.jpg */,
+				F8D0E7BE229C0581002F5466 /* image2.jpg */,
+				F8D0E7BF229C0581002F5466 /* image3.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D0E7B4229C04E1002F5466 /* LaunchScreen.storyboard in Resources */,
+				F8D0E7C1229C0581002F5466 /* image2.jpg in Resources */,
+				F8D0E7C0229C0581002F5466 /* image1.jpg in Resources */,
+				F8D0E7C2229C0581002F5466 /* image3.jpg in Resources */,
 				F8D0E7B1229C04E1002F5466 /* Assets.xcassets in Resources */,
 				F8D0E7AF229C04DF002F5466 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D0E7AC229C04DF002F5466 /* ViewController.swift in Sources */,
+				F8D0E7BC229C0538002F5466 /* ZoomViewController.swift in Sources */,
 				F8D0E7AA229C04DF002F5466 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
