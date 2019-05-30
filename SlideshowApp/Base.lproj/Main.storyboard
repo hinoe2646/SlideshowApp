@@ -29,9 +29,9 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhE-Hz-0vE">
-                                <rect key="frame" x="160.66666666666666" y="525.33333333333337" width="93" height="200.66666666666663"/>
+                                <rect key="frame" x="185.66666666666666" y="525.33333333333337" width="43" height="200.66666666666663"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="再生/停止"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="startstop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VLX-6Z-U98"/>
                                 </connections>

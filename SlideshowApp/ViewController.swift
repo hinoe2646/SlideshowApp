@@ -19,9 +19,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var slidetext: UIButton!
     
     
-    // 画面をタップして拡大画像画面へ
+    // 画像をタップして拡大画像画面へ
     @IBAction func tap(_ sender: Any) {
-         performSegue(withIdentifier: "tap",sender: nil)
+        
+        // タイマーが起動していた場合の処理
+        if slidetext.currentTitle == "停止" {
+            self.timer.invalidate()     // タイマーを停止する
+            self.timer = nil
+            slidetext.setTitle("再生", for: .normal)
+            gotext.isEnabled = true
+            backtext.isEnabled = true
+        }
+        
+        performSegue(withIdentifier: "tap",sender: nil)
     }
     
     
